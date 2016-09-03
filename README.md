@@ -32,11 +32,11 @@ system.
 
 ## License
 
-Copyright (c) Zach Ahn.
+Copyright (c) 2016 Zach Ahn.
 
-Distributed under the same license terms of vim and of [ack.vim][ackvimlicense].
-See `:help license`.
+Copyright (c) 2007-2015 Antoine Imbert and contributors.
+
+Distributed under the same license terms of vim. See `:help license`.
 
 [ack.vim]: https://github.com/mileszs/ack.vim
 [ag]: https://github.com/ggreer/the_silver_searcher
-[ackvimlicense]: https://github.com/mileszs/ack.vim/blob/5abd9a7a9c51665af699b878ccc7b1609bda098c/LICENSE
