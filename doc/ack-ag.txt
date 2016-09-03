@@ -1,0 +1,21 @@
+*ack-ag.txt*   Plugin that integrates ag with ack.vim
+
+==============================================================================
+Author:  Zach Ahn
+License: Same terms as Vim itself (see |license|)
+
+This plugin depends on ack.vim
+
+==============================================================================
+INTRODUCTION                                                       *:Ag* *ag*
+
+All commands are similar to the ones defined in |ack|, except that all
+instances of "Ack" is replaced with "Ag"
+
+==============================================================================
+CONFIGURATION
+
+If not already set, and if the ag binary is available, this package sets the
+option |g:ackprg| to work with ag.
+
+This package comes with no additional configuration.
