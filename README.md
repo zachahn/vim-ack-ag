@@ -34,6 +34,8 @@ system.
 
 Copyright (c) 2016 Zach Ahn.
 
+Distributed under the same license terms of vim. See `:help license`.
+
 Copyright (c) 2007-2015 Antoine Imbert and contributors.
 
 Distributed under the same license terms of vim. See `:help license`.
