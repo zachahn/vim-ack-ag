@@ -4,7 +4,7 @@
 Author:  Zach Ahn
 License: Same terms as Vim itself (see |license|)
 
-This plugin depends on ack.vim
+This plugin depends on |ack|.vim
 
 ==============================================================================
 INTRODUCTION                                                       *:Ag* *ag*
