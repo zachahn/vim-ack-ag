@@ -4,10 +4,6 @@ endif
 
 let g:loaded_ack_ag = 1
 
-if !exists("g:ackprg") && executable('ag')
-  let g:ackprg = 'ag --nogroup --nocolor --column'
-endif
-
 command! -bang -nargs=* -complete=file Ag           call ack#Ack('grep<bang>', <q-args>)
 command! -bang -nargs=* -complete=file AgAdd        call ack#Ack('grepadd<bang>', <q-args>)
 command! -bang -nargs=* -complete=file AgFromSearch call ack#AckFromSearch('grep<bang>', <q-args>)

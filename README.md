@@ -1,7 +1,7 @@
 # ack-ag.vim
 
 This small plugin builds on top of [ack.vim][] and defines shortcuts for using
-it with [the_silver_searcher][ag]. It depends on ack.vim for all the
+it with [the_silver_searcher][ag]. It depends on ack.vim for all actual
 functionality.
 
 ## Installation
@@ -26,9 +26,14 @@ For more info: https://github.com/junegunn/vim-plug
 
 ## Settings
 
-For your convenience, this plugin automatically defines `g:ackprg` to use `ag`
-if not already defined by the user, and if the `ag` binary is installed on the
-system.
+`ack-ag` doesn't include any new settings. However, to configure `ag.vim` to
+actually use the_silver-searcher, add the following to your `.vimrc`:
+
+```
+let g:ackprg = 'ag --vimgrep'
+```
+
+Otherwise, `ack.vim` will default to using ack.
 
 ## License
 
